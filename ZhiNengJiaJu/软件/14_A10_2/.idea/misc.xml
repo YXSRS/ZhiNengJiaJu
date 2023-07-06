@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.208" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10/app/src/main/res/drawable/ic_launcher_background.xml" value="0.208" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10/app/src/main/res/drawable/selector_an_fang.xml" value="0.152" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10/app/src/main/res/drawable/selector_kai_guan.xml" value="0.208" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10/app/src/main/res/drawable/selector_nuan_tong.xml" value="0.152" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10/app/src/main/res/drawable/selector_xuan_ze_qi.xml" value="0.152" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10/app/src/main/res/drawable/selector_zhao_ming.xml" value="0.152" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10/app/src/main/res/layout/activity_main.xml" value="0.3651041666666667" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10/app/src/main/res/layout/activity_zhao_ming.xml" value="0.35778985507246375" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10/app/src/main/res/layout/activity_zhu_jie_mian.xml" value="0.264" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10/app/src/main/res/layout/fragment__an_fang.xml" value="0.264" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10/app/src/main/res/layout/fragment__nuan_tong.xml" value="0.22807017543859648" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10/app/src/main/res/layout/fragment_an_fang.xml" value="0.264" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10/app/src/main/res/layout/fragment_nuan_tong.xml" value="0.25" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10/app/src/main/res/layout/fragment_zhao_ming.xml" value="0.264" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10_2/app/src/main/res/drawable/selector_an_fang_kai_guan.xml" value="0.1565" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10_2/app/src/main/res/drawable/selector_kai_guan.xml" value="0.1645" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10_2/app/src/main/res/drawable/selector_nuan_tong.xml" value="0.1565" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10_2/app/src/main/res/drawable/selector_nuan_tong_kai_guan.xml" value="0.1645" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10_2/app/src/main/res/layout/activity_zhu_jie_mian.xml" value="0.3651041666666667" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10_2/app/src/main/res/layout/fragment_an_fang.xml" value="0.264" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10_2/app/src/main/res/layout/fragment_nuan_tong.xml" value="0.264" />
+        <entry key="..\:/E/AndroidStudio/WaiBao/14_A10_2/app/src/main/res/layout/fragment_zhao_ming.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

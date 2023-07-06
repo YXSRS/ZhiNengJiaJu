@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_AnFang">
+
+    <!--安防-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/TianLanSe"
+            android:gravity="center"
+            android:text="@string/AnFang"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <!--门锁-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/men_suo" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="0dp"
+                android:text="@string/MenSuo"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="end|center_vertical"
+                android:paddingStart="0dp"
+                android:text="@string/ZhuangTai"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/tv_AnFang_MenSuo_ZhuangTai"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:paddingStart="0dp"
+                android:text="开"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <Button
+                android:id="@+id/btn_AnFang_YiJian_KaiMen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/YiJian_KaiMen"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <!--CO-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/co" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="0dp"
+                android:text="@string/CO"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="end|center_vertical"
+                android:paddingStart="0dp"
+                android:text="@string/ZhuangTai"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/tv_AnFang_CO_ZhuangTai"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:paddingStart="0dp"
+                android:text="有"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingStart="0dp"
+                android:text="@string/PaiQiShan"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/tv_AnFang_PaiQiShan_ZhuangTai"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:paddingStart="0dp"
+                android:text="开"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <!--雨滴-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/yu_di" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="0dp"
+                android:text="@string/YuDi"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="end|center_vertical"
+                android:paddingStart="0dp"
+                android:text="@string/ZhuangTai"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/tv_AnFang_YuDi_ZhuangTai"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:paddingStart="0dp"
+                android:text="无"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <LinearLayout
+                android:layout_width="105dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingStart="0dp"
+                        android:text="@string/ChuangHu"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/ZiTi_DaXiao"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:id="@+id/tv_AnFang_ChuangHu_ZhuangTai"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingStart="0dp"
+                        android:text="关"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/ZiTi_DaXiao"
+                        tools:ignore="RtlSymmetry" />
+
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/ck_AnFang_ChuangHu_KaiGuan"
+                    android:layout_width="60dp"
+                    android:layout_height="58dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/selector_an_fang_kai_guan"
+                    android:button="@null" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <!--火焰-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/huo_yan" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="0dp"
+                android:text="@string/HuoYan"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="end|center_vertical"
+                android:paddingStart="0dp"
+                android:text="@string/ZhuangTai"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/tv_AnFang_HuoYan_ZhuangTai"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:paddingStart="0dp"
+                android:text="无"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingStart="0dp"
+                android:text="@string/MieHuoQi"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/tv_AnFang_MieHuoQi_ZhuangTai"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:paddingStart="0dp"
+                android:text="关"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <!--室内温度-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/wen_du" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="0dp"
+                android:text="@string/ShiNei_WenDu"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/tv_AnFang_ShiNei_WenDu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="0dp"
+                android:text="20℃"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <!--室内湿度-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/shi_du" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="0dp"
+                android:text="@string/ShiNei_Shidu"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/tv_AnFang_ShiNei_ShiDu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="0dp"
+                android:text="96.8%"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <!--家居电器1-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/jiaju_dianqi" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="0dp"
+                android:text="@string/JiaJu_DianQi1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:gravity="end|center_vertical"
+                android:paddingStart="0dp"
+                android:text="@string/ZhuangTai"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/tv_AnFang_JiaJu_DianQi1_ZhuangTai"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:paddingStart="0dp"
+                android:text="无"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <CheckBox
+                android:id="@+id/ck_AnFang_JiaJu_DianQi1_KaiGuan"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/selector_an_fang_kai_guan"
+                android:button="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <!--家居电器2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/jiaju_dianqi" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="0dp"
+                android:text="@string/JiaJu_DianQi2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:gravity="end|center_vertical"
+                android:paddingStart="0dp"
+                android:text="@string/ZhuangTai"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/tv_AnFang_JiaJu_DianQi2_ZhuangTai"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:paddingStart="0dp"
+                android:text="无"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao"
+                tools:ignore="RtlSymmetry" />
+
+            <CheckBox
+                android:id="@+id/ck_AnFang_JiaJu_DianQi2_KaiGuan"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/selector_an_fang_kai_guan"
+                android:button="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+    </LinearLayout>
+
+</FrameLayout>

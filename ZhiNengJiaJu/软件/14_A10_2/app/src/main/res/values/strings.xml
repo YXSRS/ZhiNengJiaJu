@@ -1,0 +1,47 @@
+<resources>
+    <!--<string name="app_name">ZhiNeng_JiaJu</string>-->
+    <string name="app_name">智能家居</string>
+
+    <!--照明界面-->
+    <string name="ZhaoMing">照明</string>
+    <string name="QuYu">区域</string>
+    <string name="DengYuan1">灯源1</string>
+    <string name="DengYuan2">灯源2</string>
+    <string name="DengYuan1_KaiGuan">灯源1开关</string>
+    <string name="DengYuan2_KaiGuan">灯源2开关</string>
+    <string name="KeTing">客厅</string>
+    <string name="CanTing">餐厅</string>
+    <string name="ZhuWo">主卧</string>
+    <string name="CiWo">次卧</string>
+    <string name="ShuFang">书房</string>
+    <string name="ChuFang">厨房</string>
+    <string name="WeiShengJian">卫生间</string>
+
+    <!--暖通界面-->
+    <string name="NuanTong">暖通</string>
+    <string name="NuanTong_KeTing">客厅</string>
+    <string name="NuanTong_ZhuWo">主卧</string>
+    <string name="NuanTong_CiWo">次卧</string>
+    <string name="NuanTong_ShuFang">书房</string>
+    <string name="NuanTong_FengSu">风速</string>
+    <string name="NuanTong_MoShi">模式</string>
+
+    <!--安防界面-->
+    <string name="AnFang">安防</string>
+    <string name="MenSuo">门锁</string>
+    <string name="CO">CO</string>
+    <string name="YuDi">雨滴</string>
+    <string name="HuoYan">火焰</string>
+    <string name="ShiNei_WenDu">室内温度：</string>
+    <string name="ShiNei_Shidu">室内湿度：</string>
+    <string name="ZhuangTai">状态：</string>
+    <string name="YiJian_KaiMen">一键开门</string>
+    <string name="PaiQiShan">排气扇已&#160;</string>
+    <string name="ChuangHu">窗户已&#160;</string>
+    <string name="MieHuoQi">灭火器已&#160;</string>
+    <string name="JiaJu_DianQi1">家居电器1</string>
+    <string name="JiaJu_DianQi2">家居电器2</string>
+
+    <string name="YiJian_KaiGuan">总开关</string>
+
+</resources>
