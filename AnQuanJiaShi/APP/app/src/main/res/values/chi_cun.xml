@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="HangGao">60dp</dimen>  <!--行高-->
+    <dimen name="ZiTi_DaXiao">20sp</dimen>  <!--字体大小-->
+</resources>

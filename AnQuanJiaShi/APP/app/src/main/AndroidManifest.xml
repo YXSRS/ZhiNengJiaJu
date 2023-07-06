@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.jiashi_jiance">
+    <!-- 添加请求访问网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/tu_biao"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/tu_biao_9"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JiaShi_JianCe"
+        tools:targetApi="31">
+        <activity
+            android:name=".XiuGai_MiMa_JIeMian"
+            android:exported="false"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name=".XiuGai_ZiLiao_JieMian"
+            android:exported="false"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name=".Zhu_JieMian"
+            android:exported="false"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name=".ZhaoHui_MiMa_JieMian"
+            android:exported="false"
+            android:theme="@style/AppCompatTheme" />
+        <!--
+<activity
+            android:name=".DengLu_JieMian"
+            android:exported="false" />MainActivity
+        -->
+        <activity
+            android:name=".DengLu_JieMian"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.chaquo.python.android.PyApplication" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

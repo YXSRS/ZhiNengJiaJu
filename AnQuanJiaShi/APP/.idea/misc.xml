@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/drawable/bian_ji_kuan_xiao_guo.xml" value="0.1945" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.185" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/drawable/selector_bian_ji_kuan_xiao_guo.xml" value="0.1455" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/drawable/selector_dan_xuan_kuan_xiao_guo.xml" value="0.1945" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/drawable/selector_ge_ren_zhong_xin.xml" value="0.19" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/drawable/selector_shi_shi_shu_ju.xml" value="0.19" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/drawable/selector_wei_gui_ji_lu.xml" value="0.19" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/drawable/selector_xuan_ze_qi.xml" value="0.19" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/drawable/shape_bian_ji_kuan_bei_xuan_zhong.xml" value="0.185" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/drawable/shape_bian_ji_kuan_wei_xuan_zhong.xml" value="0.185" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/layout/activity_deng_lu_jie_mian.xml" value="0.264" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/layout/activity_xiu_gai_mi_ma_jie_mian.xml" value="0.264" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/layout/activity_xiu_gai_zi_liao_jie_mian.xml" value="0.264" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/layout/activity_zhao_hui_mi_ma_jie_mian.xml" value="0.3651041666666667" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/layout/activity_zhu_jie_mian.xml" value="0.1" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/layout/fragment__wei_gui__ji_lu.xml" value="0.3651041666666667" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/layout/fragment_ge_ren_zhong_xin.xml" value="0.23857868020304568" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/layout/fragment_shi_shi__shu_ju.xml" value="0.3651041666666667" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/layout/fragment_shi_shi_shu_ju.xml" value="0.2" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/layout/fragment_wei_gui_ji_lu.xml" value="0.3477157360406091" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/layout/wei_gui_shi_pei_qi.xml" value="0.264" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/E/AndroidStudio/DaZuoYe/1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

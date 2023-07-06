@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shi_shi_shu_ju_wei_xuan_zhong" android:state_checked="false"/>
+    <item android:drawable="@drawable/shi_shi_shu_ju_xuan_zhong" android:state_checked="true"/>
+</selector>

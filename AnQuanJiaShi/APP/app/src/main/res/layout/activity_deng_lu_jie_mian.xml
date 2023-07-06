@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <!--登录界面-->
+
+    <ImageView
+        android:id="@+id/iv_scale"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/deng_lu_jie_mian"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="智能安全驾驶检测系统"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户登录"
+        android:textColor="@color/black"
+        android:textSize="33sp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="@dimen/HangGao"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/ZhangHao"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ZiTi_DaXiao" />
+
+        <EditText
+            android:id="@+id/et_ZhangHao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bian_ji_kuan_xiao_guo"
+            android:hint="@string/Qing_ShuRu_ZhangHao"
+            android:inputType="text"
+            android:maxLength="11"
+            android:textColor="@color/black"
+            android:textColorHint="@color/HuiSe"
+            android:textSize="@dimen/ZiTi_DaXiao" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="@dimen/HangGao"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/MiMa"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ZiTi_DaXiao" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/et_MiMa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bian_ji_kuan_xiao_guo"
+                android:hint="@string/Qing_ShuRu_MiMa"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textColorHint="@color/HuiSe"
+                android:textSize="@dimen/ZiTi_DaXiao" />
+
+            <Button
+                android:id="@+id/btn_WangJi_MiMa"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:text="@string/WangJi_MiMa"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ZiTi_DaXiao" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/ck_JiZhu_MiMa"
+        android:layout_width="125dp"
+        android:layout_height="@dimen/HangGao"
+        android:button="@drawable/selector_dan_xuan_kuan_xiao_guo"
+        android:text="@string/JiZhu_MiMa"
+        android:textColor="@color/black"
+        android:textSize="@dimen/ZiTi_DaXiao" />
+
+    <Button
+        android:id="@+id/btn_DengLu"
+        android:layout_width="250dp"
+        android:layout_height="@dimen/HangGao"
+        android:text="@string/DengLu"
+        android:textColor="@color/black"
+        android:textSize="@dimen/ZiTi_DaXiao" />
+
+</LinearLayout>
